@@ -1,0 +1,100 @@
+/* .pc,
+    .tablet,
+    .mobile {
+        display: none;
+        font-size: 64px;
+    } */
+    /*
+        pc>= 1024px
+        tablet >=769px and <=1023px
+        mobile <740px
+    */
+/* break point */
+    /* pc */
+    @media (min-width : 64em) {
+        .pc{
+            
+        }
+    }
+
+    /* tablet & mobile */
+    @media (max-width : 63.9375em) {
+        .btn {
+            padding: 15px 16px;
+        }
+        .contact-form .form-control {
+            padding: 15px;
+        }
+        .contact-info {
+            line-height: 2.0;
+        }
+        .footer-up ul li {
+            padding: 12px;
+            font-size: 45px;
+        }
+        .powered-by {
+            font-size: 23px;
+        }
+        .powered-by a {
+            display: inline-block;
+            padding: 20px 0;
+        }
+
+    }
+
+    /* tablet */
+    @media (min-width : 746.25em ) and (max-width : 63.9375em) {
+        .tablet{
+            
+        }
+    }
+    /* mobile */
+    @media (max-width : 46.25em) {
+        .s-full-width,
+        .s-col-full {
+            width: 100%!important;
+        }
+        .s-mt-8 {
+            margin-top: 8px!important;
+        }
+
+        #header {
+            overflow: hidden;
+        }
+        #header .mobile-menu-btn {
+            display: block;
+        }
+        #header .search-btn {
+            display: none;
+        }
+        #nav {
+            display: block;
+        }
+        #nav li a {
+            padding: 1px 24px;
+        }
+        #nav > li {
+            display: block;
+        }
+        #nav > li:first-child {
+            display: inline-block;
+        }
+        #nav .subnav {
+            position: initial;
+            background: #333;
+        }
+        #nav .subnav a{
+            color: #fff;
+            padding: 5px 41px;
+        }
+        #content .content-section {
+           max-width: 100%;
+        }
+        #content .member-img {
+            width: 60%;
+        }
+        .contact-form {
+            margin-top: 16px;
+        }
+
+    }
